@@ -1,0 +1,7 @@
+Server.zip
+*.log
+*.exe
+*.mdb
+*.ldb
+static.ldr
+Configure.ini

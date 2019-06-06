@@ -1,0 +1,181 @@
+[Root]
+Most Recent Package=MMOS Network Configuration
+
+
+[Package|MMOS Network Configuration|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\MOS\Configure\Package
+
+[Package|MMOS Network Configuration|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Text=Yes
+Jet 2.x=Yes
+
+[Package|MMOS Network Configuration|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|MMOS Network Configuration|Files Found]
+
+[Package|MMOS Network Configuration|Files Released]
+
+[Package|MMOS Network Configuration|Missing Dependency Information]
+C:\Windows\SysWOW64\dbgrid32.ocx=
+C:\Windows\System32\MSLDBUSR.DLL=
+C:\Windows\SysWOW64\asctrls.ocx=
+
+[Package|MMOS Network Configuration|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCAL.OCX=
+
+[Package|MMOS Network Configuration|Files Added]
+d:\mos\configure\zipbuild\server.zip=
+d:\mos\databases\local.mdb=
+d:\mos\databases\localtest.mdb=
+D:\MOS\Databases\Reps.mdb=
+D:\MOS\Databases\RepsTest.mdb=
+
+[Package|MMOS Network Configuration|Files Removed]
+
+[Package|MMOS Network Configuration|Files In Project]
+D:\MOS\Configure\Configure.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Windows\System32\MSLDBUSR.DLL=Yes
+C:\Windows\System32\hhctrl.ocx=Yes
+C:\Windows\System32\itss.dll=Yes
+C:\Windows\System32\itircl.dll=Yes
+C:\Windows\System32\hh.exe=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\dbgrid32.ocx=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSCAL.OCX=Yes
+C:\Windows\System32\MSEXCL35.DLL=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Windows\System32\MSTEXT35.DLL=Yes
+C:\Windows\System32\MSXBSE35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\MOS\Configure\ZipBuild\Server.zip=Yes
+C:\Windows\SysWOW64\asctrls.ocx=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSChrt20.ocx=Yes
+D:\MOS\Databases\Local.mdb=Yes
+D:\MOS\Databases\LocalTest.mdb=Yes
+D:\MOS\Databases\Reps.mdb=Yes
+D:\MOS\Databases\RepsTest.mdb=Yes
+
+[Package|MMOS Network Configuration|Configure Registry Files]
+Applicable=No
+
+[Package|MMOS Network Configuration|Configure Remote Servers]
+Applicable=No
+
+[Package|MMOS Network Configuration|Install Locations]
+D:\MOS\Configure\Configure.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSLDBUSR.DLL=$(WinSysPath)
+C:\Windows\System32\hhctrl.ocx=$(WinSysPath)
+C:\Windows\System32\itss.dll=$(WinSysPath)
+C:\Windows\System32\itircl.dll=$(WinSysPath)
+C:\Windows\System32\hh.exe=$(WinSysPath)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\dbgrid32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCAL.OCX=$(WinSysPath)
+C:\Windows\System32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Windows\System32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MOS\Configure\ZipBuild\Server.zip=$(AppPath)
+C:\Windows\SysWOW64\asctrls.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSChrt20.ocx=$(WinSysPath)
+D:\MOS\Databases\Local.mdb=$(AppPath)
+D:\MOS\Databases\LocalTest.mdb=$(AppPath)
+D:\MOS\Databases\Reps.mdb=$(AppPath)
+D:\MOS\Databases\RepsTest.mdb=$(AppPath)
+
+[Package|MMOS Network Configuration|Configure Shared Files]
+Applicable=Yes
+D:\MOS\Configure\Configure.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\MOS\Configure\ZipBuild\Server.zip=No
+D:\MOS\Databases\Local.mdb=No
+D:\MOS\Databases\LocalTest.mdb=No
+D:\MOS\Databases\Reps.mdb=No
+D:\MOS\Databases\RepsTest.mdb=No
+
+[Package|MMOS Network Configuration|Distribution]
+Type=single
+Size=
+Title=MMOS Network Configuration
+
+[Package|MMOS Network Configuration|Package]
+PackageFolder=D:\MOS\Configure\Package
+ProjectFolder=D:\MOS\Configure
+ServerSideCab=
+File1=D:\MOS\Configure\Package\setup.exe
+File2=D:\MOS\Configure\Package\Setup.Lst
+File3=D:\MOS\Configure\Package\Configure.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MMOS Network Configuration|IconGroups]
+Group0=MMOS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|MMOS Network Configuration|MMOS]
+Icon1=Configure.EXE
+Title1=MMOS Network Configuration
+StartIn1=$(AppPath)
+Key1=Icon1

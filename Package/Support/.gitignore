@@ -1,0 +1,9 @@
+Configure.exe
+Setup.inf
+Setup.rpt
+*.dll
+*.ocx
+*.tlb
+*.zip
+*.rpt
+*.mdb
