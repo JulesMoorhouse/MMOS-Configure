@@ -6,6 +6,8 @@ The basic concept of the program is to copy files into a server folder, create a
 
 The configuration program can also be used to create development specific settings files.
 
+Written by [Jules Moorhouse](https://www.julesmoorhouse.com).
+
 ## Contributing
 Contributions for bug fixing or improvements are welcomed. Feel free to submit a <a href="https://github.com/JulesMoorhouse/MMOS/pulls">pull request</a>. If you would like to create an <a href="https://github.com/JulesMoorhouse/MMOS/issues">issue</a>, please do so <a href="https://github.com/JulesMoorhouse/MMOS/issues">here</a>.
 
