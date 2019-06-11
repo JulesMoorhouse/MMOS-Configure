@@ -16,17 +16,17 @@ Begin VB.Form frmTables
       Align           =   1  'Align Top
       Height          =   1050
       Left            =   0
-      TabIndex        =   11
+      TabIndex        =   10
       Top             =   0
       Width           =   13875
-      _ExtentX        =   24474
-      _ExtentY        =   1852
+      _extentx        =   24474
+      _extenty        =   1852
    End
    Begin VB.CommandButton cmdBack 
       Caption         =   "&Back"
       Height          =   360
       Left            =   12480
-      TabIndex        =   10
+      TabIndex        =   9
       Top             =   9000
       Width           =   1215
    End
@@ -68,14 +68,14 @@ Begin VB.Form frmTables
       TabIndex        =   0
       Top             =   8790
       Width           =   13875
-      _ExtentX        =   24474
-      _ExtentY        =   1244
+      _extentx        =   24474
+      _extenty        =   1244
    End
    Begin VB.Label Label7 
       Caption         =   $"Tables.frx":0000
       Height          =   375
       Left            =   120
-      TabIndex        =   13
+      TabIndex        =   12
       Top             =   6120
       Width           =   10815
    End
@@ -83,7 +83,7 @@ Begin VB.Form frmTables
       Caption         =   "If you haven't already done so, please create a 'static.ldr' file within the 'Files && Paths' screen."
       Height          =   255
       Left            =   120
-      TabIndex        =   12
+      TabIndex        =   11
       Top             =   1320
       Width           =   7815
    End
@@ -91,7 +91,7 @@ Begin VB.Form frmTables
       Caption         =   $"Tables.frx":0090
       Height          =   255
       Left            =   120
-      TabIndex        =   9
+      TabIndex        =   8
       Top             =   5640
       Width           =   13095
    End
@@ -99,25 +99,17 @@ Begin VB.Form frmTables
       Caption         =   "You’ll also need to copy ‘static.ldr’ to the folder where MMOS installed."
       Height          =   255
       Left            =   120
-      TabIndex        =   8
+      TabIndex        =   7
       Top             =   5040
       Width           =   9255
    End
    Begin VB.Label Label4 
-      Caption         =   "You will need to install this on every machine you where you want to use MMOS."
-      Height          =   255
-      Left            =   120
-      TabIndex        =   7
-      Top             =   4440
-      Width           =   9135
-   End
-   Begin VB.Label Label3 
-      Caption         =   "OK now you can download the client setup from ..."
+      Caption         =   "You will need to run and install the client setup on every machine you where you want to use MMOS."
       Height          =   255
       Left            =   120
       TabIndex        =   6
-      Top             =   3960
-      Width           =   8415
+      Top             =   4440
+      Width           =   9135
    End
    Begin VB.Label Label2 
       Caption         =   "OK, now you have all the files setup, we need to re-attach some tables."
