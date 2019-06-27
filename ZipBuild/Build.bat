@@ -11,8 +11,8 @@ copy ..\..\Reps\MReps.exe .
 copy ..\..\Client\MMOS.exe .
 copy ..\..\Admin\MAdmin.exe .
 rem copy ..\..\Databases\Local.mdb . don't copy  - as these need to added to the configure app path so tables can be re-attached
-copy ..\..\Databases\Central.mdb .
-copy ..\..\Databases\CentralTest.mdb .
+copy ..\..\Shared\Databases\Central.mdb .
+copy ..\..\Shared\Databases\CentralTest.mdb .
 copy ..\..\Client\Package\Support\*.ocx Support\.
 copy ..\..\Client\Package\Support\*.dll Support\.
 copy ..\..\Client\Package\Support\*.tlb Support\.
